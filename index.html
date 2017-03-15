@@ -5,14 +5,6 @@
   <meta charset="utf-8" />
 </head>
 <body>
-  <script type="text/javascript">
-
-window.onload=function(){
-  function receiveMessage(e){
-    var origin = event.origin || event.originalEvent.origin; 
-    e.source.postMessage({'origin':origin,'message':e.data});
-  }
-window.addEventListener('message',receiveMessage);}
-  </script>
+  <script src="index.js"></script>
   </body>
 </html>
