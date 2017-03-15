@@ -1,0 +1,14 @@
+{
+    "name": "BackgroundIframeBug",
+    "short_name": "BGIframeBug",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "background":{
+        "page":"background.html"
+    },
+    "permissions":[
+        "<all_urls>", "tabs",
+        "http://jsfiddle.net/*",
+        "https://github.com/*"
+    ]
+}
